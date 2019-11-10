@@ -1,0 +1,6 @@
+<strong> Select City: </strong>
+<app-drop-down-list
+  class="selectWrapper"
+  (cityName)="onCitySelect($event)"
+  [cityList]="cityList"
+></app-drop-down-list>
